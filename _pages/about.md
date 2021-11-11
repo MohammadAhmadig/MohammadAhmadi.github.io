@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-- As a Artificial Intelligence Engineer, work with data and develop intelligent algorithms capable of learning and analysing data in order to predict events, trends, etc, and have in-depth knowledge of computer science, programming languages, mathematics and the development of machine learning algorithms.
+- As an Artificial Intelligence Engineer, work with data and develop intelligent algorithms capable of learning and analysing data in order to predict events, trends, etc, and have in-depth knowledge of computer science, programming languages, mathematics and the development of machine learning algorithms.
