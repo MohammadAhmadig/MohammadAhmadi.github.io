@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my CV here
+You can download my CV [here](https://mohammadahmadig.github.io/publication/2022-04-13-paper-1)
 
 Publications
 ======
