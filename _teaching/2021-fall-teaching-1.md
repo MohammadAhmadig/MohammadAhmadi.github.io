@@ -10,11 +10,3 @@ location: "Yasouj, Iran"
 
 Course: The Design and Analysis of Algorithms
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
