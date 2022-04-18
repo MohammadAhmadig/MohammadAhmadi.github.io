@@ -8,4 +8,8 @@ date: 2018-01-02
 location: "Shiraz, Iran"
 ---
 
-Courses: Advanced Statistical Pattern Recognition, Artificial Intelligence, The Fundamentals of Programming, Microprocessors
+Courses: 
+  * Advanced Statistical Pattern Recognition
+  * Artificial Intelligence
+  * The Fundamentals of Programming
+  *  Microprocessors
