@@ -11,30 +11,51 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Artificial Intelligence, Shiraz University, 2016-2019
+  * Overall GPA: 17.68/20.00 - (without thesis grade)
+  * Thesis Advisor: Dr Reza Boostani
+* B.S. in Computer Engineering, Shiraz University, 2011-2015
+  * Overall GPA: 15.17/20.00
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Dec 2019-Dec 2021: Data Scientist
+  * Provincial ICT Office
+  * Duties included: Organising data in to usable formats, Collecting data, Data Analysis, Programming (Python, Java), Building predictive models, Preparing reports for executive and project teams, Create visualisations of data
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Sep 2020-Feb 2021: University Lecturer
+  * Yasouj University
+  * Course: The Design and Analysis of Algorithms
   
+* Dec 2017-Dec 2019: Data Scientist
+  * ZEICO company
+  * Duties included: Identifying relevant data sources for business needs, Collecting data, Processing, cleansing & verifying of data
+
+* Nov 2016-Nov 2017: Machine Learning Researcher
+  * Machine Vision Lab of Shiraz University
+  * Duties included: Clean and interpret data and build models using a combination of machine learning algorithms and data
+ 
+* Sep 2013-Sep 2018: Teacher Assistant
+  * Shiraz University
+  * Courses: Advanced Statistical Pattern Recognition, Artificial Intelligence, The Fundamentals of Programming, Microprocessors
+  
+* Jul 2015-Oct 2015: Computer Engineer (Internship)
+  * Iran National Standards Organization
+  * Duties included: Creating various types of hardware and software like routers, circuit boards or computer programs
+
+* Feb 2013-Nov 2015: Android Developer and Freelancer(Self-funded)
+  * Machine Vision Lab of Shiraz University
+  * Duties included: Design and Implementation of six Entertainment applications, Design and Implementation of a video and sound mix application
+
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Artificial Intelligence
+  * Machine Learning, Data Science, Image Processing, Bioinformatics, Deep Learning, Data Visualization, Data Pre-processing, Research, Optimization, Numpy, Pandas, Matplotlib, Scikit Learn, Jupyter, Pycharm, NLP, Keras, PySpark, Weka
+* Programming 
+  * Python, Matlab, Java, SQL, C, C++, OOP
+* Other 
+  * Algorithm Design, Data Structures, Mathematics, Statistics, Graph, Eclipse, Web Scraping, Microsoft Office, Latex, Photoshop cs, Google Earth
 
 Publications
 ======
@@ -42,18 +63,3 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
