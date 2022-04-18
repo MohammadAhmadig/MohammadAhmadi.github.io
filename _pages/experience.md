@@ -11,10 +11,10 @@ redirect_from:
 
 Education
 ======
-* M.S. in Artificial Intelligence, Shiraz University, 2016-2019
+* Master of Science in Artificial Intelligence, Shiraz University, Sep 2016 - Sep 2019
   * Overall GPA: 17.68/20.00 - (without thesis grade)
   * Thesis Advisor: Dr Reza Boostani
-* B.S. in Computer Engineering, Shiraz University, 2011-2015
+* Bachelor of Science in Computer Engineering, Shiraz University, Sep 2010 - Jul 2015
   * Overall GPA: 15.17/20.00
 
 Work experience
