@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+
 Education
 ======
 * Master of Science in Artificial Intelligence, Shiraz University, Sep 2016 - Sep 2019
