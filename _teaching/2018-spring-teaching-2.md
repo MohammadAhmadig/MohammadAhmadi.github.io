@@ -9,12 +9,3 @@ location: "Shiraz, Iran"
 ---
 
 Courses: Advanced Statistical Pattern Recognition, Artificial Intelligence, The Fundamentals of Programming, Microprocessors
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
