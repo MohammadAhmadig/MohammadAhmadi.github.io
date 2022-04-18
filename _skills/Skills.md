@@ -2,8 +2,6 @@
 title: ""
 collection: skills
 ---
-
-======
 * Artificial Intelligence
   * Machine Learning, Data Science, Image Processing, Bioinformatics, Deep Learning, Data Visualization, Data Pre-processing, Research, Optimization, Numpy, Pandas, Matplotlib, Scikit Learn, Jupyter, Pycharm, NLP, Keras, PySpark, Weka
 * Programming 
