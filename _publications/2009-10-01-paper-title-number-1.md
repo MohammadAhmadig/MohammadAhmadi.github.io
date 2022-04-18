@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "A Hybrid Feature Selection Scheme for High-Dimensional Data"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work'
 date: 2009-10-01
-venue: 'Journal 1'
+venue: 'Engineering Applications of Artificial Intelligence'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: 'M.A.Ganjei, R.Boostani, (2022). &quot;A Hybrid Feature Selection Scheme for High-Dimensional Data.&quot; <i>Engineering Applications of Artificial Intelligence</i>. 1(1).'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+A new hybrid feature selection framework named the HyCluster is proposed.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+<! –– [Download paper here](http://academicpages.github.io/files/paper1.pdf) ––>
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: M.A.Ganjei, R.Boostani, (2022). "A Hybrid Feature Selection Scheme for High-Dimensional Data." <i>Engineering Applications of Artificial Intelligence</i>. 1(1).
