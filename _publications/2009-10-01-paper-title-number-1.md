@@ -13,6 +13,6 @@ Our algorithm significantly improves the time complexity using feature clusterin
 It selects relevant and irredundant features and significantly improves accuracy rates.
 Comparison results imply the superiority of the proposed method to the counterparts.
 
-<> [paper link](https://mohammadahmadig.github.io/publication/2009-10-01-paper-title-number-1) <>
+[paper link](https://mohammadahmadig.github.io/publication/2009-10-01-paper-title-number-1)
 
 Recommended citation: M.A.Ganjei, R.Boostani, (2022). "A Hybrid Feature Selection Scheme for High-Dimensional Data." <i>Engineering Applications of Artificial Intelligence</i>.
