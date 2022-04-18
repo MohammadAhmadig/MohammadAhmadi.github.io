@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-- As an Artificial Intelligence Engineer, work with data and develop intelligent algorithms capable of learning and analysing data in order to predict events, trends, etc, and have in-depth knowledge of computer science, programming languages, mathematics and the development of machine learning algorithms.
+- As a Data Scientist, I work with data and develop intelligent algorithms capable of learning and analysing data to predict events, trends,... I have in-depth knowledge of data science, programming languages, mathematics and the development of machine learning algorithms.
