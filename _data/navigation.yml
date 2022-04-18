@@ -12,11 +12,11 @@ main:
   - title: "Skills"
     url: /skills/
         
-  - title: "Blog Posts"
+  - title: "Projects"
     url: /year-archive/
     
   - title: "CV"
     url: /cv/
     
-  - title: "Guide"
+  - title: "Certificates"
     url: /markdown/
