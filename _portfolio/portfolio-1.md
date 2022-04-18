@@ -1,7 +1,17 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: ""
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Education
+======
+* Master of Science in Artificial Intelligence, Shiraz University, Sep 2016 - Sep 2019
+  * Overall GPA: 17.68/20.00 - (without thesis grade)
+  * Thesis Advisor: Dr Reza Boostani
+* Bachelor of Science in Computer Engineering, Shiraz University, Sep 2010 - Jul 2015
+  * Overall GPA: 15.17/20.00
+
+Work experience
+======
+* Dec 2019-Dec 2021: Data Scientist
+  * Provincial ICT Office
