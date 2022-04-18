@@ -1,6 +1,6 @@
 ---
 title: ""
-collection: portfolio
+collection: skills
 ---
 
 Skills
