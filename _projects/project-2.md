@@ -1,7 +1,7 @@
 ---
-title: "A Hybrid Project 2"
-collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+title: "A Hybrid Project2"
+collection: projects
+permalink: /project/project-2
 excerpt: 'A new hybrid feature selection framework named the HyCluster is proposed.'
 date: 2022-05-13
 venue: 'Engineering Applications of Artificial Intelligence'
