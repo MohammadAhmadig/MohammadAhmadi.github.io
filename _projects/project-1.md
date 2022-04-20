@@ -3,7 +3,7 @@ title: "A Hybrid Project"
 collection: projects
 permalink: /project/project-1
 excerpt: 'A new hybrid feature selection framework named the HyCluster is proposed.'
-date: 2022-04-13
+date: 2022-04
 venue: 'Engineering Applications of Artificial Intelligence'
 paperurl: 'https://mohammadahmadig.github.io/publication/2022-04-13-paper-1'
 citation: 'M.A.Ganjei, R.Boostani, (2022). &quot;A Hybrid Feature Selection Scheme for High-Dimensional Data.&quot; <i>Engineering Applications of Artificial Intelligence</i>.'
