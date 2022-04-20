@@ -187,20 +187,22 @@ collections:
   certificates:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
 defaults:
-  # _posts
+  # _projects
   - scope:
       path: ""
       type: projects
     values:
       layout: single
       author_profile: true
-      read_time: true
       share: true
-      related: true
+      comments: true
   # _pages
   - scope:
       path: ""
