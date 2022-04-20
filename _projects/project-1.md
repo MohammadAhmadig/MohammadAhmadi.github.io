@@ -1,6 +1,6 @@
 ---
 title: "A Hybrid Project"
-collection: publications
+collection: projects
 permalink: /project/project-1
 excerpt: 'A new hybrid feature selection framework named the HyCluster is proposed.'
 date: 2022-04-13
