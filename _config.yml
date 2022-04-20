@@ -199,7 +199,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
       share: true
       related: true
   # _pages
@@ -239,7 +238,7 @@ defaults:
   # _talks
   - scope:
       path: ""
-      type: talks
+      type: certificates
     values:
       layout: talk
       author_profile: true
