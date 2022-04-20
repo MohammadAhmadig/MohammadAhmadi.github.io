@@ -2,7 +2,7 @@
 title: "Automatic Product Suggestions for website or clothing shopping"
 collection: projects
 permalink: /project/project-02
-excerpt: 'An Automatic Product Suggestions for website or clothing shopping is proposed.'
+excerpt: 'An Automatic Clothing Recognition and Product Suggestions for website or clothing shopping is proposed.'
 date: 2022-02-01
 venue: ''
 paperurl: 'https://mohammadahmadig.github.io/projects/project-02'
