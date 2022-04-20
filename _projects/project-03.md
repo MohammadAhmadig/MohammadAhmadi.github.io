@@ -5,7 +5,7 @@ permalink: /project/project-03
 excerpt: 'Put Glasses or Sunglasses on a Person Face in Python'
 date: 2022-01-30
 venue: ''
-paperurl: 'https://mohammadahmadig.github.io/projects/project-01'
+paperurl: 'https://mohammadahmadig.github.io/projects/project-03'
 
 ---
 
