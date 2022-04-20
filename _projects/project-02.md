@@ -5,7 +5,7 @@ permalink: /project/project-02
 excerpt: 'An Automatic Clothing Recognition and Product Suggestions for website or clothing shopping is proposed.'
 date: 2022-02-01
 venue: ''
-paperurl: 'https://mohammadahmadig.github.io/projects/project-02'
+paperurl: 'https://mohammadahmadig.github.io/project/project-02'
 
 ---
 Suppose you are looking at clothing models on an online shopping site that you like from a set of clothes of a model. The goal is to create a software that searches the site database to select and display the most similar clothes to offer to the user. Alternatively, in a store, according to the available clothes, automatically, according to the clothes of the user's selected model, offer him clothes.
