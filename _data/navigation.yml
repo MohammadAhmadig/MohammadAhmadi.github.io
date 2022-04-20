@@ -13,10 +13,10 @@ main:
     url: /skills/
         
   - title: "Projects"
-    url: /year-archive/
+    url: /projects/
     
   - title: "CV"
     url: /cv/
     
   - title: "Certificates"
-    url: /markdown/
+    url: /certificates/
