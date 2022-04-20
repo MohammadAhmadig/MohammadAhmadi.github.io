@@ -15,4 +15,4 @@ First, we need to change the query image to a person's photo on a dark backgroun
 --> [Project Link](https://github.com/MohammadAhmadig/Clothing-Recognition-and-Segmentation-for-Automatic-Product-Suggestions) <--
 
 
-<br/><img src='https://github.com/MohammadAhmadig/MohammadAhmadig.github.io/blob/master/images/automatic-product.png'>
+<br/><img src='/images/automatic-product.png'>
