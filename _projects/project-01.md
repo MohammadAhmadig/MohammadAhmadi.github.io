@@ -5,7 +5,6 @@ permalink: /project/project-01
 excerpt: 'Design and implementation of three new feature selection algorithms for high-dimensional data and the Implementation of tens Hybrid, Wrapper, and filter Feature Selection Algorithms'
 date: 2022-02-04
 venue: ''
-paperurl: 'https://mohammadahmadig.github.io/project/project-01'
 
 ---
 
