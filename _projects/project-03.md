@@ -6,7 +6,6 @@ excerpt: 'Put Glasses or Sunglasses on a Person's Face in Python'
 date: 2022-01-30
 venue: ''
 paperurl: 'https://mohammadahmadig.github.io/projects/project-01'
-
 ---
 Put Glasses or Sunglasses on a Person's Face in Python
 
