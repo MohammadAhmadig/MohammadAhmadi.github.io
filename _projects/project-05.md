@@ -5,7 +5,7 @@ permalink: /project/project-05
 excerpt: 'Online software to extract and check website information in Python'
 date: 2022-01-23
 venue: ''
-paperurl: 'https://mohammadahmadig.github.io/project/project-05'
+paperurl: ''
 
 ---
 
