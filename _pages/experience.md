@@ -22,7 +22,7 @@ Education
   * Ranked 3rd
   * Selected Courses: Statistics & Probabitities, Data Structures, Robotics, Theory of Lang. & Automata, Advanced Programming, Design & Analysis of Algorithms, Operations Research, Signals & Systems, Computer Networks, Data Comunications, Operating Systems.
 
-Work experience
+Work Experience
 ======
 * Dec 2019-Dec 2021: Data Scientist
   * Provincial ICT Office
