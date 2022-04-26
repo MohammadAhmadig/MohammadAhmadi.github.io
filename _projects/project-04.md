@@ -5,7 +5,7 @@ permalink: /project/project-04
 excerpt: 'Design and implementation of an online forecasting software with statistical and machine learning algorithms for stock market data in Python'
 date: 2022-01-26
 venue: ''
-paperurl: 'https://mohammadahmadig.github.io/project/project-04'
+paperurl: ''
 
 ---
 
