@@ -49,7 +49,7 @@ Work Experience
   * Duties included: Creating various types of hardware and software like routers, circuit boards or computer programs
 
 * Feb 2013-Nov 2015: Android Developer and Freelancer(Self-funded)
-  * Machine Vision Lab of Shiraz University
+  * CafeBazaar, Myket, Parscoders and other app stores
   * Duties included: Design and Implementation of six Entertainment applications, Design and Implementation of a video and sound mix application
 
 
