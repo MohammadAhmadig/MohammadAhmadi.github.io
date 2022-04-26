@@ -1,5 +1,5 @@
 ---
-title: "Glasses-on-Face"
+title: "Glasses on Face"
 collection: projects
 permalink: /project/project-03
 excerpt: 'Put Glasses or Sunglasses on a Person Face in Python'
