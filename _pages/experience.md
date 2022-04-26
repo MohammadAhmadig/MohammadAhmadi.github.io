@@ -40,7 +40,7 @@ Work Experience
   * Machine Vision Lab of Shiraz University
   * Duties included: Clean and interpret data and build models using a combination of machine learning algorithms and data
  
-* Sep 2013-Sep 2018: Teacher Assistant
+* Sep 2013-Feb 2019: Teacher Assistant
   * Shiraz University
   * Courses: Advanced Statistical Pattern Recognition, Artificial Intelligence, The Fundamentals of Programming, Microprocessors
   
