@@ -24,12 +24,6 @@ author_profile: true
 | <br/><img src='/images/Advanced SQL for Data Scientists.jpg'>    | 2022   | Advanced SQL for Data Scientists | [Click here](https://www.linkedin.com/learning/certificates/c9c39408470329034a57b1ff834105294fd8df6f21c575410426427addd54bf9?trk=share_certificate) |
 | <br/><img src='/images/TensorFlow Neural Networks and Working with Tables.jpg'>    | 2022   | TensorFlow Neural Networks and Working with Tables  | [Click here](https://www.linkedin.com/learning/certificates/5caaf77aefe878daded5a0634ed2ccd903c22be50adcf4439af86a4878eac34f?trk=share_certificate) |
 | <br/><img src='/images/TensorFlow Working with Images.jpg'>    | 2022   | TensorFlow Working with Images   | [Click here](https://www.linkedin.com/learning/certificates/893f26fb4913ae55b795a257da0d59c8aacba83e7332f95e94340dedcebf48b4?trk=share_certificate) |
-<!---
-| <br/><img src='/images/Spark for Machine Learning AI.jpg'>    | 2022   | Spark for Machine Learning and AI  | [Click here](https://www.linkedin.com/learning/certificates/0def85f5d4fde6f0b0df5dfccde3f91bbc20ccadf6f5da3a40e2ed5f2a0adc16?trk=share_certificate) |
-| <br/><img src='/images/Sales Analysis in Python.jpg'>    | 2022   | Sales Analysis in Python  | [Click here](https://www.linkedin.com/learning/certificates/d6bce0fd08cebd817c5b5fbd50ca3428f8b7f80e2d9a9ec98f070407baa00e7f?trk=share_certificate) |
-| <br/><img src='/images/TensorFlow Working with NLP.jpg'>    | 2022   | TensorFlow Working with NLP  | [Click here](https://www.linkedin.com/learning/certificates/c305418d66ab957dd8ccc43f160ed6be4e30de335c5efc7e5bcbd9c8eb944b1e?trk=share_certificate) |
-| <br/><img src='/images/Advanced Pandas.jpg'>    | 2022   | Advanced Pandas | [Click here](https://www.linkedin.com/learning/certificates/10414439524ea6ab8067da22ae0c4ee500dfcc4a90c7918fb163b2b5d3863d99?trk=share_certificate) |
--->
 | <br/><img src='/images/Building Deep Learning Applications with Keras.jpg'>    | 2022   | Building Deep Learning Applications with Keras | [Click here](https://www.linkedin.com/learning/certificates/07849cbc342faf1f6396808aafdcd356a4da9eff8f9c9b06756cd2963471f506?trk=share_certificate) |
 | <br/><img src='/images/Deep Learning Getting Started.jpg'>    | 2022   | Deep Learning: Getting Started  | [Click here](https://www.linkedin.com/learning/certificates/5730f24cdf4fb16d3a4e8db72b83adf5110b5b5690b0517b1f5c57f71858f87a?trk=share_certificate) |
 | <br/><img src='/images/Deep learning workshop.jpg'>    | 2017   | Deep learning workshop  | [Click here](http://civip.shirazu.ac.ir/DL) |
