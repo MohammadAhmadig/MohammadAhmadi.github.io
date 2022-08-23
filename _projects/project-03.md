@@ -12,7 +12,7 @@ venue: ''
 
 How to Find the Best Sunglasses for Your Face Shape? You can try several glasses or sunglasses with this code. Don't care for angle, orientation or size of your picture. It fits glasses on your face. This code can be used in online glasses shops for their costumers.
 
---> [Project Link](https://github.com/MohammadAhmadig/Glasses-on-Face) <--
+--> [Link of Project](https://github.com/MohammadAhmadig/Glasses-on-Face) <--
 
 
 <br/><img src='/images/glasses-face.png'>
