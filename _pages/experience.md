@@ -25,8 +25,8 @@ Education
 Work Experience
 ======
 * Dec 2019-Dec 2021: Data Scientist
-  * Provincial ICT Office
-  * Duties included: Organising data in to usable formats, Collecting data, Data Analysis, Programming (Python, Java), Building predictive models, Preparing reports for executive and project teams, Create visualisations of data
+  * ICT
+  * Responsibilities: Organising data in to usable formats, Collecting data, Data Analysis, Programming (Python, Java), Building predictive models, Preparing data visualisations for executive and project teams
 
 * Sep 2020-Feb 2021: University Lecturer
   * Yasouj University
@@ -34,11 +34,11 @@ Work Experience
   
 * Dec 2017-Dec 2019: Data Scientist
   * ZEICO company
-  * Duties included: Identifying relevant data sources for business needs, Collecting data, Processing, cleansing & verifying of data
+  * Responsibilities: Identifying relevant data sources for business needs, Collecting data, Processing, cleansing & verifying of data
 
 * Nov 2016-Nov 2017: Machine Learning Researcher
   * Machine Vision Lab of Shiraz University
-  * Duties included: Clean and interpret data and build models using a combination of machine learning algorithms and data
+  * Responsibilities: Clean and interpret data and build models using a combination of machine learning algorithms and data
  
 * Sep 2013-Feb 2019: Teacher Assistant
   * Shiraz University
@@ -46,11 +46,11 @@ Work Experience
   
 * Jul 2015-Oct 2015: Computer Engineer (Internship)
   * Iran National Standards Organization
-  * Duties included: Creating various types of hardware and software like routers, circuit boards or computer programs
+  * Responsibilities: Creating various types of hardware and software like routers, circuit boards or computer programs
 
 * Feb 2013-Nov 2015: Android Developer and Freelancer(Self-funded)
   * CafeBazaar, Myket, Parscoders and other app stores
-  * Duties included: Design and Implementation of six Entertainment applications, Design and Implementation of a video and sound mix application
+  * Responsibilities: Design and Implementation of six Entertainment applications, Design and Implementation of a video and sound mix application
 
 
 Skills
