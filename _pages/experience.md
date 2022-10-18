@@ -31,12 +31,8 @@ Work Experience
 * Sep 2020-Feb 2021: University Lecturer
   * Yasouj University
   * Course: The Design and Analysis of Algorithms
-  
-* Dec 2017-Dec 2019: Data Scientist
-  * ZEICO company
-  * Responsibilities: Identifying relevant data sources for business needs, Collecting data, Processing, cleansing & verifying of data
 
-* Nov 2016-Nov 2017: Machine Learning Researcher
+* Nov 2017-Nov 2018: Machine Learning Researcher
   * Machine Vision Lab of Shiraz University
   * Responsibilities: Clean and interpret data and build models using a combination of machine learning algorithms and data
  
