@@ -25,17 +25,24 @@ Diffusion models:
 
 •	Cons: Diffusion models rely on a long Markov chain of diffusion steps to generate samples, so it can be quite expensive in terms of time and compute. New methods have been proposed to make the process much faster, but the sampling is still slower than GAN.
 
-----------------------------------------------
+
 <br/><img src='/images/PaperDM.jpg'>
 ----------------------------------------------
 Abstract: By decomposing the image formation process into a sequential application of denoising autoencoders, diffusion models (DMs) achieve state-of-the-art synthesis results on image data and beyond. Additionally, their formulation allows for a guiding mechanism to control the image generation process without retraining. However, since these models typically operate directly in pixel space, optimization of powerful DMs often consumes hundreds of GPU days and inference is expensive due to sequential evaluations. To enable DM training on limited computational resources while retaining their quality and flexibility, we apply them in the latent space of powerful pretrained autoencoders. In contrast to previous work, training diffusion models on such a representation allows for the first time to reach a near-optimal point between complexity reduction and detail preservation, greatly boosting visual fidelity. By introducing cross-attention layers into the model architecture, we turn diffusion models into powerful and flexible generators for general conditioning inputs such as text or bounding boxes and high-resolution synthesis becomes possible in a convolutional manner. Our latent diffusion models (LDMs) achieve a new state of the art for image inpainting and highly competitive performance on various tasks, including unconditional image generation, semantic scene synthesis, and super-resolution, while significantly reducing computational requirements compared to pixel-based DMs.
 
 Latent diffusion model (LDM; Rombach & Blattmann, et al. 2022) runs the diffusion process in the latent space instead of pixel space, making training cost lower and inference speed faster. It is motivated by the observation that most bits of an image contribute to perceptual details and the semantic and conceptual composition still remains after aggressive compression. LDM loosely decomposes the perceptual compression and semantic compression with generative modeling learning by first trimming off pixel-level redundancy with autoencoder and then manipulate/generate semantic concepts with diffusion process on learned latent.
 
+
+<br/><img src='/images/PaperDM2.jpg'>
+----------------------------------------------
 The diffusion and denoising processes happen on the latent vector z. The denoising model is a time-conditioned U-Net, augmented with the cross-attention mechanism to handle flexible conditioning information for image generation (e.g. class labels, semantic maps, blurred variants of an image). The design is equivalent to fuse representation of different modality into the model with cross-attention mechanism. Each type of conditioning information is paired with a domain-specific encoder τθ to project the conditioning input y to an intermediate representation that can be mapped into cross-attention components.
 
 Diffusion models rely on a long Markov chain of diffusion steps to generate samples, so it can be quite expensive in terms of time and compute. New methods have been proposed to make the process much faster, but the sampling is still slower than GAN.
 
+
+
+<br/><img src='/images/PaperDM3.jpg'>
+----------------------------------------------
 Contributions:
 
 1-This method scales more graceful to higher dimensional data and can thus work on a compression level which provides more faithful and detailed reconstructions than previous work and can be applied to high-resolution synthesis of megapixel images.
@@ -57,6 +64,11 @@ In the second figure, they compare models trained on CelebAHQ and ImageNet in te
 
 2-They train models of 256 squared images on 4 image datasets and evaluate results using FID and Precision-and-Recall. This Table summarizes their results. This model outperforms prior diffusion based approaches in most cases.
 
+
+
+<br/><img src='/images/PaperDM4.jpg'>
+----------------------------------------------
+
 In my opinion the main strength of the paper is the idea of applying DM in a lower dimensional space or latent space using auto-encoding which is perceptually equivalent to the image space., thus we can use the power of DMs with an acceptable computational resource and time. The latent space is more suitable for generative models, as we can focus on the important, semantic bits of the data and train in a lower dimensional, computationally much more efficient space.
 
---> [Link of Paper ](https://arxiv.org/abs/2112.10752) <--
+--> [Link to the Paper ](https://arxiv.org/abs/2112.10752) <--
