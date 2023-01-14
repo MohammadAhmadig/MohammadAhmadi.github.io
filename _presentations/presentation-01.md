@@ -14,12 +14,8 @@ venue: ''
     </embed>
 </object>
 
-xfun::embed_file("https://github.com/MohammadAhmadig/MohammadAhmadig.github.io/blob/master/files/paper1.pdf")
+<iframe src="https://unigeit-my.sharepoint.com/personal/s4930082_studenti_unige_it/_layouts/15/Doc.aspx?sourcedoc={497c2173-f7cd-4465-9dca-4b98d5e41067}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="600px" height="363px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
 
-<embed src="https://github.com/MohammadAhmadig/MohammadAhmadig.github.io/blob/master/files/paper1.pdf" type="application/pdf">
-
-<object data="https://github.com/MohammadAhmadig/MohammadAhmadig.github.io/blob/master/files/paper1.pdf" type="application/pdf" width="100%"> 
-</object>
 
 In this paper, the authors have presented latent diffusion models, to improve efficiency of de-noising diffusion models without degrading their quality. 
 Diffusion Models are generative models, meaning that they are used to generate data similar to the data on which they are trained. Fundamentally, Diffusion Models work by destroying training data through the successive addition of Gaussian noise, and then learning to recover the data by reversing this noising process. After training, we can use the Diffusion Model to generate data by simply passing randomly sampled noise through the learned denoising process.
