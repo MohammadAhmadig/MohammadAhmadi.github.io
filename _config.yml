@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Mohammad's Homepage"
 title_separator          : "-"
-name                     : &name "Mohammad Ahmadi"
+name                     : &name "Mohammad Ahmadi Ganjei"
 description              : &description "personal description"
 url                      : https://mohammadahmadig.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mohammad Ahmadi"
+  name             : "Mohammad Ahmadi Ganjei"
   avatar           : "profile.png"
   bio              : "Open to work, Graduated from Shiraz University"
   location         : "Shiraz, Iran"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=lK25ZjcAAAAJ&hl=en"
+  googlescholar    :  "https://scholar.google.com/citations?user=lK25ZjcAAAAJ&hl=en"
   email            :
   researchgate     :  "https://www.researchgate.net/profile/Mohammad_Ahmadi_Ganjei"
   uri              :
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "mohammad-ahmadi-ganjei"
-  orcid            : 
+  orcid            : "https://orcid.org/0000-0002-6127-8626"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
