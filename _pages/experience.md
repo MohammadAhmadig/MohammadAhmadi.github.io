@@ -24,7 +24,11 @@ Education
 
 Work Experience
 ======
-* Dec 2019-Dec 2021: Data Scientist
+* Jan 2022-Current: Data Scientist
+  * Zeico Company
+  * Responsibilities: Identifying relevant data sources for business needs, Collecting data, Processing, cleansing & verifying of data
+
+* Jan 2020-Jan 2022: Data Scientist
   * ICT
   * Responsibilities: Organising data in to usable formats, Collecting data, Data Analysis, Programming (Python, Java), Building predictive models, Preparing data visualisations for executive and project teams
 
