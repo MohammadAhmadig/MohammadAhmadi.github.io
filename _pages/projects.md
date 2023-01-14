@@ -14,3 +14,12 @@ author_profile: true
 {% for post in site.projects reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+
+Presentations
+======
+{% include base_path %}
+
+{% for post in site.projects reversed %}
+  {% include archive-single.html %}
+{% endfor %}
