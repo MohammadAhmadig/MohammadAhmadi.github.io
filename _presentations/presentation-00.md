@@ -34,14 +34,16 @@ They have created a static analysis tool for Python, a type system for tracking 
 <br/><img src='/images/PaperAr2.jpg'>
 ----------------------------------------------
 -Challenges: Machine learning code generally uses all the standard features of programming languages, such as classes and methods; hence, program analysis must handle them. Three necessary aspects are: Call graph construction, Pointer analysis, and Library modelling. 
-Call graph construction is required to understand the direct and indirect function calls. A direct call could be handled easily, but more complex cases require higher-order functions. Pointer analysis is needed, for example, to know the loading of the images correctly. It requires pointer analysis to understand that the objects at two points might be aliased. In Library modelling, sometimes there is no connection in the source code being analyzed, and the TensorFlow source is not typically available when analyzing a program. However, there is an indirect connection between them through the library. These challenges are all connected. Fortunately, these challenges are similar to what analysis frameworks have long had to do for other languages, and we can leverage that technology.
+•	Call graph construction is required to understand the direct and indirect function calls. A direct call could be handled easily, but more complex cases require higher-order functions. 
+•	Pointer analysis is needed, for example, to know the loading of the images correctly. It requires pointer analysis to understand that the objects at two points might be aliased. 
+•	In Library modelling, sometimes there is no connection in the source code being analyzed, and the TensorFlow source is not typically available when analyzing a program. However, there is an indirect connection between them through the library. These challenges are all connected. Fortunately, these challenges are similar to what analysis frameworks have long had to do for other languages, and we can leverage that technology.
 
 -Related works: There has been some Python program analysis work, and we will discuss the most related tools and summarize the rest of the work.
 These works are two broad classes: code quality checkers and dynamic analysis. Code quality checkers are static analyzers for code quality metrics or tools. Examples are Pylint, Pycodestyle, Pyflakes, Flake8, QuantifiedCode CE, and Pydocstyle. Python Taint is a static analysis tool for detecting security vulnerabilities in Python. It uses standard dataflow techniques and can do some analysis. These tools are not for whole-program static analysis based on dataflow, as WALA is.
 Dynamic analyses sometimes build call graphs, of which a notable example is "Python CallGraph". Another dynamic analysis tool, like PyChecker, do things one would expect a compiler to do for many other languages. These tools are very different from WALA, as our goal is to statically approximate all possible runs rather than dynamic tools focusing on one or a few executions.
 There is also much exciting work in the area of using machine learning to analyze code. However, those work remains technically distinct in that it uses machine learning to analyze rather than applying code analysis to aid machine learning.
 
-- WALA: Existing program analysis frameworks (like Doop, Safe, WALA) provide the program analysis that would enable analyzing programs; they can build call graphs describing how functions interact and analysis of how objects behave. However, none of these support Python. WALA supports Java and JavaScript. Fortunately, WALA does have a frontend designed to make adding new languages as easy as possible.
+-WALA: Existing program analysis frameworks (like Doop, Safe, WALA) provide the program analysis that would enable analyzing programs; they can build call graphs describing how functions interact and analysis of how objects behave. However, none of these support Python. WALA supports Java and JavaScript. Fortunately, WALA does have a frontend designed to make adding new languages as easy as possible.
 WALA has been public for several years and used by researchers for various works. It has been robust and scalable enough to support products.
 The Authors have presented WALA's application to analyze tensors' behaviour in Tensorflow ML programs. This involved adapting WALA to Python, which they believe is the first application of traditional program analysis technology to Python.
 
@@ -80,10 +82,11 @@ The ✗ (multiplication sign) denotes that they verified that the program does n
 They claim that the analysis of each program took just a few seconds on a typical laptop.
 
 -Limitations:
-This implementation is still preliminary.
-Not evaluated on different ML programs and data.
-It is not complete and comprehensive.
-But it's a good starting point.
+
+•	This implementation is still preliminary.
+•	Not evaluated on different ML programs and data.
+•	It is not complete and comprehensive.
+•	But it's a good starting point.
 
 --> [Link to the Paper ](https://arxiv.org/pdf/1805.04058) <--
 
