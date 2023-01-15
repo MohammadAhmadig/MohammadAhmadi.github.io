@@ -14,7 +14,7 @@ venue: ''
 
 In this paper, The Authors measure and trigger toxic behavior in open-domain chatbots.
 
--Firstly, we introduce the problem and some definitions. and then review related works. Then I explain the propose method and finally discuss the results.
+-Firstly, we introduce the problem and some definitions. and then review challenges and goels. Then we explain the propose method and finally discuss the results.
 
 -Chatbots are used in many applications, for example, automated agents, smart home assistants, and interactive characters in online games. Therefore, it is crucial to ensure they do not behave in undesired manners and provide offensive or toxic responses to users.
 
