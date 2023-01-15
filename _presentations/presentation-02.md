@@ -2,7 +2,7 @@
 title: "Measuring and Triggering Toxic Behavior in Machine Learning Models"
 collection: presentations
 permalink: /presentations/presentation-02
-excerpt: 'Why So Toxic? Measuring and Triggering Toxic Behavior in Open-Domain Chatbots'
+excerpt: 'Measuring and Triggering Toxic Behavior in Open-Domain Chatbots'
 date: 2022-02-01
 venue: ''
 
