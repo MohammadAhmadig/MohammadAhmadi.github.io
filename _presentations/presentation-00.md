@@ -1,8 +1,8 @@
 ---
-title: "Static Analysis for Tensor Flow Machine Learning Programs: Paper entitled:Ariadne: Analysis for Machine Learning Programs"
+title: "Static Analysis for Tensor Flow Machine Learning Programs"
 collection: presentations
 permalink: /presentations/presentation-00
-excerpt: 'The authors apply static analysis to machine learning code that uses Tensorflow.'
+excerpt: 'The authors apply static analysis to machine learning code that uses Tensorflow. Paper entitled: Ariadne: Analysis for Machine Learning Programs'
 date: 2022-02-03
 venue: ''
 
