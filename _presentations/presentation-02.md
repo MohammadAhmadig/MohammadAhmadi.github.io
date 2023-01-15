@@ -1,15 +1,15 @@
 
 ---
-title: "Static Analysis for Tensor Flow and Machine Learning Programs"
+title: "Measuring and Triggering Toxic Behavior in Machine Learning Models"
 collection: presentations
-permalink: /presentations/presentation-00
-excerpt: 'Applying static analysis to machine learning code that uses Tensorflow. Paper entitled: Ariadne: Analysis for Machine Learning Programs'
-date: 2022-02-03
+permalink: /presentations/presentation-02
+excerpt: 'Why So Toxic? Measuring and Triggering Toxic Behavior in Open-Domain Chatbots'
+date: 2022-02-01
 venue: ''
 
 ---
 
-<iframe src="https://unigeit-my.sharepoint.com/personal/s4930082_studenti_unige_it/_layouts/15/Doc.aspx?sourcedoc={a9088d55-616c-4c79-8759-4a8955a83346}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="900px" height="544px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+<iframe src="https://unigeit-my.sharepoint.com/personal/s4930082_studenti_unige_it/_layouts/15/Doc.aspx?sourcedoc={40bf6ab1-f69f-4815-b8f4-428faf6f4c84}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="900px" height="544px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
 
 -----------------------------------------------
 
