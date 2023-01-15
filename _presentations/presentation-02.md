@@ -25,7 +25,7 @@ In this presentation, we talk about toxic speech— that means offensive languag
 
 <br/><img src='/images/PaperTx0.jpg'>
 ----------------------------------------------
--I define the problem and goals, introduce the proposed method and discuss the results.
+-We define the problem and goals, introduce the proposed method and discuss the results.
 
 -This work follows three main research questions: 
 
