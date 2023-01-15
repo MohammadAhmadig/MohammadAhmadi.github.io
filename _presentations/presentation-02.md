@@ -43,9 +43,23 @@ In this presentation, we talk about toxic speech— that means offensive languag
 
 <br/><img src='/images/PaperTx2.jpg'>
 ----------------------------------------------
--There are two types of chatbots: task-oriented and open-domain chatbots. Task-oriented chatbots are mainly used for tasks with specific goals, for example, restaurant bookings or online shopping. Open-domain chatbots interact with humans on any topic, e.g., answering tweets or providing entertainment.
+-There are two types of chatbots: task-oriented and open-domain chatbots. 
 
--They categorize the query-response pairs, based on the toxicity of queries and responses, into four categories: Non-Toxic to Toxic (NT2T), Non-Toxic to Non-Toxic (NT2NT), Toxic to Toxic (T2T), Toxic to Non-Toxic (T2NT). They focus on the NT2T scenario (i.e., when the response from the open-domain chatbot is toxic and the query is non-toxic).
+- Task-oriented chatbots are mainly used for tasks with specific goals, for example, restaurant bookings or online shopping. 
+
+- Open-domain chatbots interact with humans on any topic, e.g., answering tweets or providing entertainment.
+
+-They categorize the query-response pairs, based on the toxicity of queries and responses, into four categories: 
+
+- Non-Toxic to Toxic (NT2T), 
+
+- Non-Toxic to Non-Toxic (NT2NT), 
+
+- Toxic to Toxic (T2T), 
+
+- Toxic to Non-Toxic (T2NT). 
+
+They focus on the NT2T scenario (i.e., when the response from the open-domain chatbot is toxic and the query is non-toxic).
 
 -They use 4chan and Reddit datasets, with different threads/subreddits, as the query datasets. 4chan is an Internet forum where users can discuss different topics. They used the Politically Incorrect board of that. Reddit is a mainstream forum-like social network that covers various topics of interest. They use funny, movie, politics, and world news sub-reddits. Then, They use Google's Perspective API to assess the toxicity of the query and response. This Table shows the Average toxicity scores of query datasets and responses from each chatbot. We can see that the toxicity of 4chan queries is more than others.
 
