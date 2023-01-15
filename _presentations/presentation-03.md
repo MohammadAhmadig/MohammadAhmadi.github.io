@@ -2,7 +2,7 @@
 title: "Auditing Data Provenance in Machine Learning Models"
 collection: presentations
 permalink: /presentations/presentation-03
-excerpt: 'Auditing Data Provenance in Text-Generation Models'
+excerpt: 'Developing a new model auditing technique that helps users audit machine learning models to determine if their data was used to train these models.'
 date: 2022-02-01
 venue: ''
 
