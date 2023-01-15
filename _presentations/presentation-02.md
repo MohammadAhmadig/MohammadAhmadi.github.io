@@ -1,4 +1,3 @@
-
 ---
 title: "Measuring and Triggering Toxic Behavior in Machine Learning Models"
 collection: presentations
