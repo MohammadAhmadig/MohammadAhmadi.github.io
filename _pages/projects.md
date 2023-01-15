@@ -16,6 +16,7 @@ author_profile: true
 {% endfor %}
 
 --------------------------------------------
+
 Projects
 ======
 {% include base_path %}
