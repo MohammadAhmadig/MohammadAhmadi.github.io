@@ -12,100 +12,87 @@ venue: ''
 
 -----------------------------------------------
 
-In this paper, The Authors apply static analysis to machine learning code that uses Tensorflow.
+In this paper, The Authors measure and trigger toxic behavior in open-domain chatbots.
 
--Firstly, we introduce the problem and some definitions. Then review related works. After that I explain the propose method and finally discuss the results.
+- Firstly, we introduce the problem and some definitions. and then review related works. Then I explain the propose method and finally discuss the results.
+
+- Chatbots are used in many applications, for example, automated agents, smart home assistants, and interactive characters in online games. Therefore, it is crucial to ensure they do not behave in undesired manners and provide offensive or toxic responses to users.
+
+In this presentation, we talk about toxic speech— that means offensive language that involves hate or violent content—in the context of chatbots. Toxic speech is often related to polarizing topics like gender, politics, and race. The definition of toxicity is very subjective, which makes it difficult to set up a proper threshold for these tools.
+
+-This paper is "Why So Toxic? Measuring and Triggering Toxic Behavior in Open-Domain Chatbots, " published in Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security.
 
 
-<br/><img src='/images/PaperAr0.jpg'>
+<br/><img src='/images/PaperTx0.jpg'>
 ----------------------------------------------
--In most programming domains, preventing and catching programming errors is aided by supportive tooling. Tools also aid programming by suggesting appropriate completions while writing code, and refactoring code to improve design and reuse. These tools usually are part of IDEs. Machine learning code is commonly written in Python, partly because of its wealth of machine learning libraries. Due to ML's statistical nature, code with subtle errors may run and produce results that look plausible but are meaningless.
+- I define the problem and goals, introduce the proposed method and discuss the results.
 
-They have created a static analysis tool for Python, a type system for tracking tensors—Tensorflow's core data structures—and a data flow analysis to track their usage.
-
--Static Analysis: static analysis is the analysis of computer programs performed without executing them, in contrast with dynamic analysis, which is performed on programs during their execution.
+- This work follows three main research questions: 
 
 
-<br/><img src='/images/PaperAr1.jpg'>
+<br/><img src='/images/PaperTx1.jpg'>
 ----------------------------------------------
--Python & ML: Machine learning is increasingly used in science from translation to vision. Python is a popular language because of its wealth of machine learning libraries, and it makes development faster; however, this language has less support for error detection at code creation time than tools like Eclipse.
+(1) What kinds of queries are more likely to drive a chatbot to respond in a toxic way? 
+
+(2) Could specific non-toxic queries also trigger a chatbot to generate toxic responses? 
+
+(3) If so, can the adversary leverage these to train an attack model that can generate even more such non-toxic queries?
+
+- Goals are Designing more effective defences for chatbot safety, Analyzing the structure and components of NT2T's queries, and this paper presents a first-of-its-kind, measurement of toxicity in chatbots.
 
 
-<br/><img src='/images/PaperAr2.jpg'>
+<br/><img src='/images/PaperTx2.jpg'>
 ----------------------------------------------
--Challenges: Machine learning code generally uses all the standard features of programming languages, such as classes and methods; hence, program analysis must handle them. Three necessary aspects are: Call graph construction, Pointer analysis, and Library modelling. 
+- There are two types of chatbots: task-oriented and open-domain chatbots. Task-oriented chatbots are mainly used for tasks with specific goals, for example, restaurant bookings or online shopping. Open-domain chatbots interact with humans on any topic, e.g., answering tweets or providing entertainment.
 
-•	Call graph construction is required to understand the direct and indirect function calls. A direct call could be handled easily, but more complex cases require higher-order functions. 
+- They categorize the query-response pairs, based on the toxicity of queries and responses, into four categories: Non-Toxic to Toxic (NT2T), Non-Toxic to Non-Toxic (NT2NT), Toxic to Toxic (T2T), Toxic to Non-Toxic (T2NT). They focus on the NT2T scenario (i.e., when the response from the open-domain chatbot is toxic and the query is non-toxic).
 
-•	Pointer analysis is needed, for example, to know the loading of the images correctly. It requires pointer analysis to understand that the objects at two points might be aliased. 
-
-•	In Library modelling, sometimes there is no connection in the source code being analyzed, and the TensorFlow source is not typically available when analyzing a program. However, there is an indirect connection between them through the library. These challenges are all connected. Fortunately, these challenges are similar to what analysis frameworks have long had to do for other languages, and we can leverage that technology.
-
--Related works: There has been some Python program analysis work, and we will discuss the most related tools and summarize the rest of the work.
-These works are two broad classes: code quality checkers and dynamic analysis. Code quality checkers are static analyzers for code quality metrics or tools. Examples are Pylint, Pycodestyle, Pyflakes, Flake8, QuantifiedCode CE, and Pydocstyle. Python Taint is a static analysis tool for detecting security vulnerabilities in Python. It uses standard dataflow techniques and can do some analysis. These tools are not for whole-program static analysis based on dataflow, as WALA is.
-
-Dynamic analyses sometimes build call graphs, of which a notable example is "Python CallGraph". Another dynamic analysis tool, like PyChecker, do things one would expect a compiler to do for many other languages. These tools are very different from WALA, as our goal is to statically approximate all possible runs rather than dynamic tools focusing on one or a few executions.
-
-There is also much exciting work in the area of using machine learning to analyze code. However, those work remains technically distinct in that it uses machine learning to analyze rather than applying code analysis to aid machine learning.
-
--WALA: Existing program analysis frameworks (like Doop, Safe, WALA) provide the program analysis that would enable analyzing programs; they can build call graphs describing how functions interact and analysis of how objects behave. However, none of these support Python. WALA supports Java and JavaScript. Fortunately, WALA does have a frontend designed to make adding new languages as easy as possible.
-
-WALA has been public for several years and used by researchers for various works. It has been robust and scalable enough to support products.
-The Authors have presented WALA's application to analyze tensors' behaviour in Tensorflow ML programs. This involved adapting WALA to Python, which they believe is the first application of traditional program analysis technology to Python.
+- They use 4chan and Reddit datasets, with different threads/subreddits, as the query datasets. 4chan is an Internet forum where users can discuss different topics. They used the Politically Incorrect board of that. Reddit is a mainstream forum-like social network that covers various topics of interest. They use funny, movie, politics, and world news sub-reddits. Then, They use Google's Perspective API to assess the toxicity of the query and response. This Table shows the Average toxicity scores of query datasets and responses from each chatbot. We can see that the toxicity of 4chan queries is more than others.
 
 
-<br/><img src='/images/PaperAr3.jpg'>
+<br/><img src='/images/PaperTx3.jpg'>
 ----------------------------------------------
--The authors extend WALA to support Python, build a type system for tracking tensors—one of machine learning's core data structures—and an analysis of tensor usage. Their contributions are:
- 
- 1. Application of WALA program analysis to Python
- 
- 2. Type system capturing semantic properties of tensors
- 
- 3. An open-source implementation
+- In a primary measurement, queries from the 4chan and Reddit datasets are given chatbots. Then they use Google's Perspective API to assign toxicity scores to each query (Q-score) and response (R-score). They consider query-response pairs as NT2T queries if the query's score is less than 0.5 and the response score is more than 0.5 or equal 0.5. These NT2T queries and responses create an auxiliary dataset. 
 
 
-<br/><img src='/images/PaperAr4.jpg'>
+<br/><img src='/images/PaperTx4.jpg'>
 ----------------------------------------------
--Example: Here, we consider an example that uses well-known MNIST data to train image recognition. MNIST is a handwritten dataset of numbers. This program reads training data and classifies images using operations like Reshape, Conv2d and read_data_sets. 
+-To understand why the chatbot model generates toxic outputs with non-toxic queries, they analyze the structure and components of NT2 T's queries. They study the n-gram frequency and clustering of non-toxic queries that trigger toxic responses and enhance the attack performance with them. Their analysis highlights some common properties of queries of NT2T: 
 
--The reshape operation reshapes a tensor to the dimensions specified in its second argument. The reshape operation can transform dimensions, but the total size must be the same since it is accessing the same data. They hypothesize that operations such as this could be checked for correctness in terms of both dimensions and types of data and perhaps even generated automatically.
+(1) queries with specific topics, such as race, have a higher chance of triggering toxic responses; 
 
-The conv2d method requires that the input tensor has four dimensions. It requires that the contents of the dimension be a number. Also, it requires that the middle two dimensions represent height and width.
+(2) queries with specific structures, such as interrogative-like, have a higher chance of triggering toxic responses; 
 
--WALA provides a framework for handling new languages, the Common Abstract Syntax Tree (CAst) system. 
-The supported way to handle new languages is to translate a language into CAst, and use the built-in support for translating CAst into WALA's Internal Representation (IR) for analysis; They use the existing Jython functionality to create Python Abstract Syntax Tree for translation to CAst. 
-
-Some constructs are standard enough across languages that CAst provides a construct with translation to Internal Representation, like if, while, and goto. -For such constructs, simply creating the appropriate CAst construct suffices.
-
-Some other constructs differ in detail. -After that, they choose to model popular machine learning frameworks to capture their semantic properties, using an XML representation of the IR.
+(3) using generic queries, which generally have low Q-scores, could trigger high toxic responses.
 
 
-<br/><img src='/images/PaperAr5.jpg'>
+<br/><img src='/images/PaperTx5.jpg'>
 ----------------------------------------------
--Analyzing Tensors: WALA produces a dataflow graph as part of pointer analysis and call graph construction. The dataflow graph summarizes the program's flow of objects and values; this graph is an abstraction of possible program behaviour. -Given a dataflow graph G, the authors defined a tensor estimate T(y) as the set of possible tensor types that tensors held by y may have. 
-
-According to this definition, y can have all tensor values, such as input, assigning a value of x to y, or equal to the result of reshaping a tensor or other TensorFlow operators. It formulates and configures the program and structures in this way.
+- This Figure displays the scatter diagram of the relationship between the average Q-score and R-score per cluster. Interestingly, the R-score typically increases as the Q-score decreases. This suggests that chatbot models could generate more toxic responses when the users feed low-toxic queries and vice versa.
 
 
-<br/><img src='/images/PaperAr6.jpg'>
+<br/><img src='/images/PaperTx6.jpg'>
 ----------------------------------------------
--Results: They evaluated their prototype implementation by analyzing 6 Tensorflow examples. Their analysis checks that the tensor argument is the right size to be transformed into the desired shape for the reshape operation. The conv2d operation performs a 2D convolution on images, requiring the images to be in a height, width, and channels format. Their analysis checks that the argument has that structure. conv3d is similar to conv2d, but for 3D images. placeholder is used for operations later applied to data;
+- The authors introduce ToxicBuddy, a system that generates "non-toxic" queries to trigger public chatbots to output toxic responses, which fine-tunes the GPT-2 model using the auxiliary dataset collected from the previous stage. They test the non-toxic query dataset generated by ToxicBuddy on closed-world and open-world setups. ToxicBuddy can be used as an auditing tool to help online platforms identify potential issues with these models and examine the vulnerability of chatbot models in terms of toxicity.
 
-They evaluate these six programs. These programs build and train convolutional neural networks to classify images. 
-This Table shows the APIs analyzed in each program; for each API, their analysis verified that these programs used them correctly. The ✓ (check mark) notation in the Table denotes constructs that they found in the codes and were able to verify appropriately used;
-The ✗ (multiplication sign) denotes that they verified that the program does not contain the construct.
-They claim that the analysis of each program took just a few seconds on a typical laptop.
 
--Limitations:
+<br/><img src='/images/PaperTx7.jpg'>
+----------------------------------------------
+- These Tables report the attack results for BBm, BBl, and DialoGPT. Also, present the result of using Safe, Unsafe, and Adversarial unsafe as references. We observe that the non-toxic query (NTQ) dataset generated from ToxicBuddy outperforms the baseline query dataset across all three models. Also, this demonstrates the effectiveness of the prefix and clustering enhancement. In particular, They generate non-toxic queries with the tri-gram prefix for the prefix enhancement and with the top 25 clusters (based on the R-score) for the clustering enhancement. Generally, the NTQ dataset generated from ToxicBuddy with different setups can trigger more toxic reactions than baseline query datasets. Overall, all the results demonstrate the efficacy of ToxicBuddy.
 
-•	This implementation is still preliminary.
 
-•	Not evaluated on different ML programs and data.
+<br/><img src='/images/PaperTx8.jpg'>
+----------------------------------------------
+- Some aspects and results of ToxicBuddy:
 
-•	It is not complete and comprehensive.
+•	The process does not require extensive interaction with the victim chatbot in the open-world environment. 
 
-•	But it's a good starting point.
+•	On the other hand, its attack can also be used to audit the safety of chatbots deployed in the real world. 
 
---> [Link to the Paper ](https://arxiv.org/pdf/1805.04058) <--
+•	It is general and does not need to interact with the target chatbot in an open-world environment. 
+
+•	Toxicity detection tools like the Perspective API are not perfect. 
+
+
+--> [Link to the Paper ](https://arxiv.org/abs/2209.03463) <--
 
