@@ -2,7 +2,7 @@
 title: "High-Resolution Image Synthesis with Latent Diffusion Models"
 collection: presentations
 permalink: /presentations/presentation-01
-excerpt: 'The authors have presented latent diffusion models, to improve efficiency of de-noising diffusion models without degrading their quality.'
+excerpt: 'Presenting latent diffusion models, to improve efficiency of de-noising diffusion models without degrading their quality.'
 date: 2022-02-02
 venue: ''
 
