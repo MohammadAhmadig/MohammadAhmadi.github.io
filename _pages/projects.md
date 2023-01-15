@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Projects"
+title: "Presentations"
 permalink: /projects/
 author_profile: true
 ---
@@ -11,15 +11,14 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.projects reversed %}
+{% for post in site.presentations reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
-
-Presentations
+Projects
 ======
 {% include base_path %}
 
-{% for post in site.presentations reversed %}
+{% for post in site.projects reversed %}
   {% include archive-single.html %}
 {% endfor %}
