@@ -20,7 +20,7 @@ In this paper, The Authors measure and trigger toxic behavior in open-domain cha
 
 In this presentation, we talk about toxic speech— that means offensive language that involves hate or violent content—in the context of chatbots. Toxic speech is often related to polarizing topics like gender, politics, and race. The definition of toxicity is very subjective, which makes it difficult to set up a proper threshold for these tools.
 
--This paper is "Why So Toxic? Measuring and Triggering Toxic Behavior in Open-Domain Chatbots, " published in Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security.
+-This paper is "Why So Toxic? Measuring and Triggering Toxic Behavior in Open-Domain Chatbots, " published in Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security. This paper presents a large-scale measurement of toxicity in chatbots. The authors found that chatbots could respond with toxic outputs even when presented with non-toxic queries. Their work highlights the need to design better defense methods and pre-training/fine-tuning processes for chatbots. First, they want to answer this question: What kinds of queries (specific non-toxic queries) are more likely to drive a chatbot to respond in a toxic way?
 
 
 <br/><img src='/images/PaperTx0.jpg'>
@@ -71,7 +71,7 @@ They focus on the NT2T scenario (i.e., when the response from the open-domain ch
 
 <br/><img src='/images/PaperTx4.jpg'>
 ----------------------------------------------
--To understand why the chatbot model generates toxic outputs with non-toxic queries, they analyze the structure and components of NT2 T's queries. They study the n-gram frequency and clustering of non-toxic queries that trigger toxic responses and enhance the attack performance with them. Their analysis highlights some common properties of queries of NT2T: 
+-To understand why the chatbot model generates toxic outputs with non-toxic queries, they analyze the structure and components of NT2T's queries. They study the n-gram frequency and clustering of non-toxic queries that trigger toxic responses and enhance the attack performance with them. Their analysis highlights some common properties of queries of NT2T: 
 
 (1) queries with specific topics, such as race, have a higher chance of triggering toxic responses; 
 
@@ -94,9 +94,15 @@ They focus on the NT2T scenario (i.e., when the response from the open-domain ch
 ----------------------------------------------
 -These Tables report the attack results for BBm, BBl, and DialoGPT. Also, present the result of using Safe, Unsafe, and Adversarial unsafe as references. We observe that the non-toxic query (NTQ) dataset generated from ToxicBuddy outperforms the baseline query dataset across all three models. Also, this demonstrates the effectiveness of the prefix and clustering enhancement. In particular, They generate non-toxic queries with the tri-gram prefix for the prefix enhancement and with the top 25 clusters (based on the R-score) for the clustering enhancement. Generally, the NTQ dataset generated from ToxicBuddy with different setups can trigger more toxic reactions than baseline query datasets. Overall, all the results demonstrate the efficacy of ToxicBuddy.
 
+For two main reasons, open-domain chatbots are more prone to toxic behaviors. First, the topic in open-domain can be extensive; Second, open-domain chatbots rely on large-scale datasets, usually obtained from social media; these datasets are likely to include offensive content.
+
 
 <br/><img src='/images/PaperTx8.jpg'>
 ----------------------------------------------
+They adopt the NT2T rate, DSC and List metrics to evaluate ToxicBuddy. Their experiments provide many helpful insights into building a safety chatbot. First, larger models tend to be more vulnerable than smaller ones, and second high-quality/toxic-free training dataset significantly impacts the model. Comparison with another work (UAT-LM) shows that ToxitBuddy queries are more effective in NT2T, despite this attack not directly accessing the victim.
+
+Overall, they believe ToxicBuddy can be used as an auditing tool and that their work will pave the way toward designing more effective defenses for chatbot safety applications.
+
 -Some aspects and results of ToxicBuddy:
 
 •	The process does not require extensive interaction with the victim chatbot in the open-world environment. 
